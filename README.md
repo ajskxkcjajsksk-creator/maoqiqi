@@ -194,11 +194,17 @@
 
 ## 9. 关于「IP 检测分很高」
 
-有客户用 IPQS 之类的检测站查到我们某些 IP 被标成「VPN / 代理 / 高风险」。这是真的，我们不否认。
+用 IPQS 之类的检测站可以查到 IP 分数。
 
-这类分数是按**整段地址和运营商**打的，不是按这个 IP 实际被怎么用。同一时间我们查了 8 个检测库，只有一家这么标，其余 7 家（Scamalytics、AbuseIPDB、IP2Location 等）都判为低风险。
+这类分数是按**整段地址和运营商**打的，不是按这个 IP 实际被怎么用。
 
-真正决定能不能用的是解锁和速度。如果你在意这个分数，可以换节点名带「AT&T 家宽」或「Cox 家宽」的美国节点，它们在 IPQS 上分数较低。自己查 IP 可以用 [ipinfo.io](https://ipinfo.io) 或 [iplark.com](https://iplark.com)。
+同一时间我们查了 8 个检测库（Scamalytics、AbuseIPDB、IP2Location 等），发现「AT&T 家宽」「Cox 家宽」以及「Verizon 家宽」由于是美国民用线路，会在各检测网站都判为低风险。
+
+真正决定能不能用的是解锁和速度。如果你在意这个分数，可以换节点名带「AT&T 家宽」、「Cox 家宽」以及「Verizon 家宽」的美国节点。
+
+自己查 IP 可以用 [ipinfo.io](https://ipinfo.io) 或 [iplark.com](https://iplark.com) 等。
+
+附注：日本家宽为日本 So-net 线路。
 
 ---
 
