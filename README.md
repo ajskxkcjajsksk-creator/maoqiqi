@@ -10,7 +10,7 @@
 
 ## 30 秒结论
 
-貓七七是一家 **2021 年秋** 开始运营的小机场（最早的域名是 cat77.xyz）。节点全部使用 **mieru 协议**，覆盖日本、美国、台湾、新加坡、香港、韩国、菲律宾、英国、土耳其，其中一半以上是标 🌟 的家宽/原生 IP，主打 **AI 解锁**（Claude · ChatGPT · Gemini · Grok）。
+貓七七是一家 **2021 年秋** 开始运营的小机场（最早的域名是 cat77.xyz）。节点全部使用 **M协议**，覆盖日本、美国、台湾、新加坡、香港、韩国、菲律宾、英国、土耳其，其中一半以上是标 🌟 的家宽/原生 IP，主打 **AI 解锁**（Claude · ChatGPT · Gemini · Grok）。
 
 几件我们自己认为最重要、也最容易被外人误解的事：
 
@@ -29,7 +29,7 @@
 2. [倍率：标多少扣多少](#2-倍率标多少扣多少)
 3. [节点：地区、家宽、AI 解锁](#3-节点地区家宽ai-解锁)
 4. [拼车套餐：独享一个 IP](#4-拼车套餐独享一个-ip)
-5. [为什么用 mieru，以及它的代价](#5-为什么用-mieru以及它的代价)
+5. [为什么用 M协议，以及它的代价](#5-为什么用-m协议以及它的代价)
 6. [客户端：能用什么、不能用什么](#6-客户端能用什么不能用什么)
 7. [网址为什么总在换](#7-网址为什么总在换)
 8. [我们主动屏蔽了什么](#8-我们主动屏蔽了什么)
@@ -137,7 +137,7 @@
 
 ---
 
-## 5. 为什么用 mieru，以及它的代价
+## 5. 为什么用 M协议，以及它的代价
 
 **代价**（买之前要知道）：
 
@@ -152,11 +152,11 @@
 | 平台 | 推荐 | 说明 |
 |---|---|---|
 | Windows / macOS | **Clash Verge**（mihomo 内核） | 原生支持，直接导入订阅 |
-| Android | **ClashMetaForAndroid** 或 **NekoBox** | NekoBox 需另装 mieru 插件，订阅链接末尾加 `?flag=v2rayn`（[教程](https://catcat7.com/nekobox-android.html)） |
-| iOS | **小火箭 Shadowrocket** 最新版 | iOS 上目前唯一能跑 mieru 的客户端（[教程](https://catcat7.com/xiaohuojian-ios.html)） |
+| Android | **ClashMetaForAndroid** 或 **NekoBox** | NekoBox 需另装 M协议插件，订阅链接末尾加 `?flag=v2rayn`（[教程](https://catcat7.com/nekobox-android.html)） |
+| iOS | **小火箭 Shadowrocket** 最新版 | iOS 上目前唯一能跑 M协议的客户端（[教程](https://catcat7.com/xiaohuojian-ios.html)） |
 | 软路由 | **Nikki**（OpenWrt 24.10+）或 **ShellCrash**（老固件） | [Nikki 教程](https://catcat7.com/nikki) · [ShellCrash 教程](https://catcat7.com/shellcrash) |
 
-**不能用的**：官方 sing-box、PassWall / PassWall2（内核不支持 mieru，换新版、调设置都没用）。OpenClash 能用，但在低配路由器上容易卡。
+**不能用的**：官方 sing-box、PassWall / PassWall2（内核不支持 M协议，换新版、调设置都没用）。OpenClash 能用，但在低配路由器上容易卡。
 
 **mihomo 内核版本要 v1.19.4 或更新**，旧版转发 UDP 有问题。
 
