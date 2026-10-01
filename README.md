@@ -109,7 +109,13 @@
 - `『电信』『CMI移动』『CN2』` = 为对应运营商优化的入口，按自己的宽带选
 - 名字末尾的 `1x / 2x …` = 倍率
 
-**AI 解锁**：所有套餐都能用 Claude、ChatGPT、Gemini、Grok。Gemini 对 IP 要求最严，建议用名字里带 `Gemini` 的节点。
+**🤖 AI 分流已设置**：Grok、Claude、ChatGPT 会自动走「AI」分组里的节点，不用手动切换。
+
+但是经常用 AI 的话，强烈建议：
+
+- 用 [https://lycorisveil.sbs/music/convert](https://lycorisveil.sbs/music/convert) 把订阅链接转成「防泄漏版」再导入；
+- 固定用一个国家或一个节点，不要频繁切换国家，换来换去容易触发风控；
+- Gemini 请选名字里带「Gemini」的节点。
 
 **线路**：以优化中转为主，**不是 IPLC/IEPL 专线**。电信用户优先用带 `CN2` 的节点。
 
