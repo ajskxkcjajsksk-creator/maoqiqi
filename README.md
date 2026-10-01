@@ -17,7 +17,7 @@
 - 🇯🇵 日本：So-net 家宽
 - 🇺🇸 美国：Cox、AT&T、Verizon 家宽
 
-为当地运营商发给普通家庭的民用宽带 IP，不是机房 IP。
+为当地运营商发给普通家庭的民用宽带 IP，不是机房 IP。家宽、原生 IP 和机房 IP 有什么区别，可以看这篇：[什么是家宽 IP](https://github.com/RiceBlack67/what-is-residential-ip)。
 
 **AI 解锁**（Claude · ChatGPT · Gemini · Grok）。
 
